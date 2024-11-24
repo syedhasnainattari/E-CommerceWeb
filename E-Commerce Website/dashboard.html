@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghousia Distributor</title>
+  <link rel="stylesheet" href="./da.css">
+  <link rel="shortcut icon" href="./img/Logo_Ghousia-removebg-preview.png" type="image/x-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  
+   <nav class="navbar">
+    <div class="logo">
+        <a href="#"><img src="./img/Logo_Ghousia-removebg-preview.png" height="30px" width="230px"></a>
+    </div>
+    <div class="menu-icon" onclick="toggleMenu()">
+        ☰
+    </div>
+    <ul class="nav-links">
+        <li><a href="#wa">Home</a></li>
+        <li><a href="#we">Products</a></li>
+        <li><a href="#con Form">Contact</a></li>
+    </ul>
+</nav> 
+  <!-- Hero Section -->
+  <section class="hero" id="wa">
+    <h1>Welcome to Ghousia Distributor</h1>
+    <p>Your one-stop shop for the best deals and quality products!</p>
+</section>
+
+<!-- Categories -->
+<section class="categories" id="products">
+    <div>
+        <img src="./img/books.jpeg" alt="Category 1">
+        <p>Islamic Books</p>
+    </div>
+    <div>
+        <img src="./img/digital.jpeg" alt="Category 2">
+        <p>Digital Quran Kareem</p>
+    </div>
+    <div>
+        <img src="./img/ittar.jpeg" alt="Category 3">
+        <p>Ittar</p>
+    </div>
+</section>
+
+<!-- Products -->
+<div class="head"><h2>Products</h2></div>
+<section class="products" id="we">
+  <div class="product" data-name="Miswak" data-price="50">
+      <img src="img/miswak.jpeg" alt="Product 1" width="200" height="200">
+      <h3>Miswak Shareef</h3>
+      <p>Price: 50 Rs</p>
+      <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="product" data-name="Faizane Namaz" data-price="20">
+      <img src="img/faizanenamaz.jpeg" alt="Product 2"  width="200" height="200">
+      <h3>Faizan E Namaz</h3>
+      <p>Price: 20 Rs</p>
+      <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="product" data-name="Shijra Shareef" data-price="120">
+    <img src="img/shijra.jpeg" alt="Product 2"  width="200" height="200">
+    <h3>Shijrah Shareef</h3>
+    <p>Price: 120 Rs</p>
+    <button class="add-to-cart">Add to Cart</button>
+</div>
+
+<div class="product" data-name="Sticker Bismillah " data-price="20">
+  <img src="./img/bismillah.jpeg" alt="Product 2" width="200" height="200">
+  <h3>Sticker</h3>
+  <p>Price: 20 Rs</p>
+  <button class="add-to-cart">Add to Cart</button>
+</div>
+</section>
+<div class="heada"><h2>Tasbeeh Counter</h2></div>
+<section class="products">
+<div class="product" data-name="Tasbeeh" data-price="120 Rs">
+  <img src="./img/tasbeeh.jpeg" alt="Product 2" width="200" height="200">
+  <h3>Tasbeeh</h3>
+  <p>Price: 120 Rs</p>
+  <button class="add-to-cart">Add to Cart</button>
+</div>
+
+<div class="product" data-name="Tasbeeh Digital" data-price="220">
+  <img src="img/tasbeh digital.jpeg" alt="Product 2" width="200" height="200">
+  <h3>Tasbeeh Digital</h3>
+  <p>Price: 220 Rs</p>
+  <button class="add-to-cart">Add to Cart</button>
+</div>
+</section>
+<div class="heado"><h2> Muslim Hat</h2></div>
+<section class="products">
+  <div class="product" data-name="Baghdadi Topi" data-price="100">
+    <img src="./img/topi 1.jpeg" alt="Product 2"  width="200" height="200">
+    <h3>Baghdadi  Topi</h3>
+    <p>Price: 100 Rs</p>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="product" data-name="Barelwi Topi" data-price="120" >
+    <img src="./img/topi 4.jpeg" alt="Product 2" width="200" height="200">
+    <h3>Shahi Flaxed</h3>
+    <p>Price: 120</p>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+<div class="product" data-name="Taj Topi" data-price="150">
+  <img src="img/topi 2.jpeg" alt="Product 2" width="200" height="200">
+  <h3>Taj Meran</h3>
+  <p>Price: 150 Rs</p>
+  <button class="add-to-cart">Add to Cart</button>
+</div>
+<div class="product" data-name="Golden Graze Topi" data-price="130">
+  <img src="./img/topi 3.jpeg" alt="Product 2" width="200" height="200">
+  <h3>Golden Graze</h3>
+  <p>Price: 130 Rs</p>
+  <button class="add-to-cart">Add to Cart</button>
+</div>
+</section>
+<div class="headq"><h2>Drode Pak Box</h2></div>
+<section class="products">
+<div class="product" data-name="Drode Pak Jar" data-price="250">
+  <img src="./img/drode pak.jpeg" alt="Product 2" width="200" height="200">
+  <h3>Drode Pak Jar</h3>
+  <p>Price: 250 Rs</p>
+  <button class="add-to-cart">Add to Cart</button>
+</div>
+</section>
+<div class="headq"><h2>Ittar & Perfume</h2></div>
+<section class="products">
+<div class="product" data-name="Sabaya" data-price="150">
+  <img src="img/ittar sabay.jpeg" alt="Product 2" width="200" height="200">
+  <h3>Sabaya</h3>
+  <p>Price: 150 Rs</p>
+  <button class="add-to-cart">Add to Cart</button>
+</div>
+<div class="product" data-name="Leajend" data-price="150">
+  <img src="img/leajend.jpeg" alt="Product 2" width="200" height="200">
+  <h3>Leagend</h3>
+  <p>Price: 150 Rs</p>
+  <button class="add-to-cart">Add to Cart</button>
+</div>
+<div class="product" data-name="Poeam" data-price="200">
+  <img src="./img/Untitled design.png" alt="Product 2" width="200" height="200">
+  <h3> Norani Poem</h3>
+  <p>Price: 200 Rs</p>
+  <button class="add-to-cart">Add to Cart</button>
+</div>
+<div class="product" data-name="Daro Bekum" data-price="150 Rs">
+  <img src="./img/Untitled design (1).png" alt="Product 2" width="200" height="200">
+  <h3>DaroBekum</h3>
+  <p>Price: 150 Rs</p>
+  <button class="add-to-cart">Add to Cart</button>
+</div>
+</section>
+
+<!-- Modal -->
+<div class="modal" id="cartModal">
+  <div class="modal-content">
+      <h3>Enter Your Details</h3>
+      <form id="cartForm">
+          <input type="text" id="userName" placeholder="Your Name" required>
+          <input type="text" id="userLocation" placeholder="Your Location" required>
+          <input type="tel" id="userPhone" placeholder="Your Phone Number" required>
+          <input type="number" id="quantity" placeholder="Quantity" min="1" required>
+          <button type="submit">Submit</button>
+      </form>
+  </div>
+</div>
+<div class="contact-page" id="con Form">
+  <div class="contact-header">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you! Please fill out the form below.</p>
+  </div>
+  <div class="contact-form-container">
+      <form id="contactForm">
+          <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" placeholder="Write your message" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Submit</button>
+      </form>
+      <p id="successMessage" class="success-message">Your message has been saved!</p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-container">
+      <!-- About Section -->
+      <div class="footer-section about">
+          <h3>About Us</h3>
+          <p>
+            <img src="./img/Logo_Ghousia-removebg-preview.png" height="60px" width="250px">
+          </p>
+      </div>
+      <!-- Quick Links -->
+      <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+          </ul>
+      </div>
+      <!-- Contact Info -->
+      <div class="footer-section contact">
+          <h3>Contact Us</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Malir Karachi, Pakistan</p>
+          <p><i class="fas fa-phone-alt"></i> +92 323 2156758</p>
+          <p><i class="fas fa-envelope"></i> syedhasnainattari5@gmail.com</p>
+      </div>
+      <!-- Social Media -->
+      <div class="footer-section social">
+          <h3>Follow Us</h3>
+          <a href="https://www.facebook.com/profile.php?id=61561695008244"><i class="fab fa-facebook"></i></a>
+          <a href="https://x.com/SYEDHASNAI72181"><i class="fab fa-twitter"></i></a>
+          <a href="https://whatsapp.com/channel/0029Vat6D7qK5cDFeOmcwZ2f"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/in/syed-muhammad-hasnain-9516b7317/"><i class="fab fa-linkedin"></i></a>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      &copy; 2024 ShopMate | All Rights Reserved
+  </div>
+</footer>
+    <script src="dash.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <h1>Product Cards</h1>
+  <div class="container" id="productContainer"></div>
+
+  <!-- Overlay -->
+  <!-- <div class="overlay" id="overlay"></div> -->
+
+  <!-- Form Modal -->
+  <!-- <div class="form-modal" id="formContainer">
+    <form id="productForm">
+      <h2>Product Details</h2>
+      
+      <div class="form-group">
+        <label for="name"><i class="fas fa-user"></i> Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="address"><i class="fas fa-home"></i> Address</label>
+        <input type="text" id="address" placeholder="Enter your address" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone"><i class="fas fa-phone"></i> Phone Number</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number" required>
+      </div>
+
+      <div class="form-group">
+        <label for="product"><i class="fas fa-box"></i> Product Name</label>
+        <input type="text" id="product" placeholder="Enter product name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="quantity"><i class="fas fa-sort-numeric-up"></i> Quantity</label>
+        <input type="number" id="quantity" placeholder="Enter quantity" required>
+      </div>
+      
+      <button type="submit"><i class="fas fa-save"></i> Save</button>
+    </form>
+  </div>  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
